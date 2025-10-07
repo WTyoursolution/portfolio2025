@@ -1,12 +1,20 @@
 /* App.css */
+
 * {
   box-sizing: border-box;
+}
+
+h1, p {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 
 /* Center website */
 .main {
   max-width: 1000px;
   margin: auto;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 
 h1 {
@@ -14,13 +22,20 @@ h1 {
   word-break: break-all;
 }
 
-button {
+.headerbtn {
   border: none;
   padding: 10px;
-  margin: 5px;
+  margin: 20px;
   cursor: pointer;
   font-weight: bold;
-  border-radius: 10px;
+  border-radius: 20px;
+}
+
+.icon-div{ 
+padding: 20px;
+}
+.icons {
+  padding: 20px;
 }
 
 button:hover {
